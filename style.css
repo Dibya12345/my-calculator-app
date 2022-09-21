@@ -8,14 +8,14 @@ body{
     background-color: #3B4664;
 }
 header{
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header-switch{
-    background-color: #181F32;
+    /* background-color: #181F32; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 17px;
@@ -23,7 +23,8 @@ header{
 .header-switch h2{
     color: #fff;
     font-family: 'League Spartan', sans-serif;
-
+    position: relative;
+    bottom: 5.5px;
 }
 .toggle-switch{
     display: flex;
@@ -33,6 +34,7 @@ header{
     color: #fff;
     font-size: 12px;
     font-family: 'League Spartan', sans-serif;
+
 }
 .toggle-switch button{
     height: 20px;
