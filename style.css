@@ -36,8 +36,22 @@ header{
     font-family: 'League Spartan', sans-serif;
 
 }
-.toggle-switch button{
-    height: 20px;
+.toggle-bar{
+    background-color: #ddd;
+    border: none;
+    width: 24px;
+    height: 10.5px;
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+  }
+.toggle-bar button{
+    border: none;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 0.5px;
 }
 .header-display{
     width: 430px;
